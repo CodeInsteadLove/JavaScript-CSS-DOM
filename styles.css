@@ -10,17 +10,16 @@ li {
 button {
   position: absolute;
   padding: 0.5rem;
-  border-radius: 50%;
   background-color: #333;
   color: #ffff;
+  margin: auto;
   font-weight: 600;
   cursor: pointer;
   /*  */
+}
 
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
+span {
+  color: red;
 }
 button:nth-child(2) {
   right: 10px;
@@ -30,6 +29,7 @@ button:nth-child(2) {
 .flex {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   max-width: 400px;
 }
@@ -38,6 +38,10 @@ img {
   border-radius: 0.5rem;
 }
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   padding: 1rem;
   min-width: 400px;
   min-height: 400px;
