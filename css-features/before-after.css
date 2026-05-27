@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+}
+/* .container::before */
+.container::after {
+  content: "Title";
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: 30%;
+
+  border-radius: 0.5rem;
+  background-color: #333;
+  width: 150px;
+  height: 100px;
+}
