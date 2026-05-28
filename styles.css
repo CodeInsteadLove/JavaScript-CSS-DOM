@@ -19,10 +19,6 @@ button {
   /*  */
 }
 
-span {
-  color: red;
-}
-
 .flex {
   display: flex;
   justify-content: center;
@@ -43,7 +39,7 @@ img {
   min-width: 400px;
   min-height: 400px;
   text-align: center;
-  border: 0.5rem solid gray;
+  border: 0.5rem dashed #222;
   font-weight: 600;
   font-size: 1.7rem;
   position: relative;
