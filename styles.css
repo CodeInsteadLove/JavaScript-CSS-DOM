@@ -36,9 +36,9 @@ img {
   align-items: center;
 
   padding: 1rem;
-  min-width: 400px;
+  min-width: 600px;
   min-height: 400px;
-  max-width: 500px;
+  max-width: 600px;
   text-align: center;
   border: 0.5rem dashed #222;
   font-weight: 600;
