@@ -38,10 +38,11 @@ img {
   padding: 1rem;
   min-width: 400px;
   min-height: 400px;
+  max-width: 500px;
   text-align: center;
   border: 0.5rem dashed #222;
   font-weight: 600;
-  font-size: 1.7rem;
+  font-size: 2rem;
   position: relative;
 
   display: flex;
