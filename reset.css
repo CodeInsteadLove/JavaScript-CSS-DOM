@@ -5,6 +5,14 @@ main {
 body {
   box-sizing: border-box;
   font-size: 1.2rem;
+  margin: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
 }
 ul {
   list-style: none;

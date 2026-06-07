@@ -1,0 +1,15 @@
+.solar-ecl-anim {
+  width: 300px;
+  height: 300px;
+  border: 1rem solid orange;
+
+  border-radius: 50%;
+  box-shadow: 2px 10px 20px orange;
+  animation: shadowAnim 3s linear infinite;
+}
+
+@keyframes shadowAnim {
+  100% {
+    box-shadow: 110px 10px 20px orange;
+  }
+}
