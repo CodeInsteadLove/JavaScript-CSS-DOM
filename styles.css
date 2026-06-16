@@ -65,16 +65,3 @@ p {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
-.event {
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-  z-index: 99;
-  width: 150px;
-  font-size: 1.2rem;
-
-  border-radius: 0.3rem;
-  color: #444;
-  background-color: #e5e5e5;
-  border: 3px solid #ccc;
-}
