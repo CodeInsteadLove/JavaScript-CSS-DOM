@@ -65,6 +65,7 @@ p {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
+<<<<<<< HEAD
 select {
   width: 200px;
   height: 40px;
@@ -75,3 +76,5 @@ select {
   top: 100px;
   left: 150px;
 }
+=======
+>>>>>>> 46341f1e06d65f0fec67b8b17826752cb25d3cd8
