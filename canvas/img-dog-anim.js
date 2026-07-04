@@ -60,13 +60,7 @@ function selectedAnimation(row) {
 }
 
 function draw() {
-  const spriteWidth = imgWidth * scale;
-  const spriteHeight = imgHeight * scale;
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-  const posInParentElX = canvas.width / 2 - spriteWidth / 2;
-  const posInParentElY = canvas.height / 2 - spriteHeight / 2;
-
+  ctx.clearRect(chX, chY, imgWidth, imgHeight);
   ctx.drawImage(
     img,
     imgPosX * imgWidth,

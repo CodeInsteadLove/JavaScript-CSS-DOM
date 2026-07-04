@@ -82,3 +82,17 @@ select {
   text-decoration: none;
   position: relative;
 }
+.text-container {
+  font-size: 2rem;
+
+  color: #fff;
+}
+.fa-house {
+  color: #4caf50;
+  font-size: 3rem;
+}
+
+.fa-heart {
+  color: #ff3b5c;
+  font-size: 1rem;
+}
